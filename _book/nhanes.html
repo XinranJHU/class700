@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Abistata - References</title>
+<title>Abistata - 3&nbsp; NHANES</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
 </style>
 
 
@@ -49,7 +30,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./nhanes.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./summary.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -88,7 +70,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">References</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">NHANES</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -128,12 +110,12 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./nhanes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">NHANES</span></a>
+  <a href="./nhanes.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">NHANES</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
     </ul>
@@ -141,14 +123,20 @@ div.csl-indent {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#increasing-access-to-the-nhanes-1988-2018-surveys-mortality-linkage-data-via-a-user-friendly-stata-program" id="toc-increasing-access-to-the-nhanes-1988-2018-surveys-mortality-linkage-data-via-a-user-friendly-stata-program" class="nav-link active" data-scroll-target="#increasing-access-to-the-nhanes-1988-2018-surveys-mortality-linkage-data-via-a-user-friendly-stata-program"><span class="toc-section-number">4</span>  Increasing access to the NHANES 1988-2018 surveys &amp; mortality linkage data via a user-friendly Stata program</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">References</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">NHANES</span></h1>
 </div>
 
 
@@ -163,14 +151,44 @@ div.csl-indent {
 
 </header>
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput.
-J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
-</div>
+<section id="increasing-access-to-the-nhanes-1988-2018-surveys-mortality-linkage-data-via-a-user-friendly-stata-program" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> <a href="#increasing-access-to-the-nhanes-1988-2018-surveys-mortality-linkage-data-via-a-user-friendly-stata-program">Increasing access to the NHANES 1988-2018 surveys &amp; mortality linkage data via a user-friendly Stata program</a></h1>
+<p>Xinran, MHS, Johns Hopkins University, School of Medicine</p>
+<p><strong>Background:</strong> We are developing skills that allow us to access publicly available large databases that may be queried to answer fundamental questions about the publics health. These datasets might exist in formats unfamiliar to Stata users or in sizes that cripple ones workflow.</p>
+<p>In our first two weeks, we curated a dataset with all the <a href="https://data.nber.org/mortality/">mortality records</a> in the United States from 1959-2017 and wrote a basic Stata script that output a <a href="https://jhustata.github.io/book/_downloads/9359d2ae4f8ad2efcfe2fd34e3547c35/mortality.png">two-way plot</a> showing annual trends in number of deaths during this period. In the subsequent two weeks we wrote a Stata program, <code>mortality</code>, that allows the user to define the time-period of interest, plus other parameters such as cause-of-death, and ultimately produce a similar two-way plot with the convenience of a Stata command.</p>
+<p>Our goal for the second-half of the class is to leverage this experience to give Stata users access to the entire range of NHANES surveys via a simple command, <code>nhanes</code>, with several user-defined options. We have not yet articulated what these options are but will do so on an emerging basis each week.</p>
+<p>Today let’s start by reading in the alpha-version of this program, which we adopted from Chapter: <code>r(mean)</code> of the PH.340.600 book. Depending on your Stata edition, this program will either import a dataset with 20,000 observations and 3600 variables or 20,000 observations and 22 variables:</p>
+<p><strong>Methods:</strong> For Stata/BE or IC users this current program outputs an NHANES dataset with 22 pre-specified variables. Over the next week we shall release the next iteration of the program, which will allow the user to list the variables they wish to be imported from the CDC website.</p>
+<p><strong>Results:</strong> When a Kaplan-Meier graph pops up on your screen, that will be your cue that the program has run to completion and that you have an NHANES III dataset in your <code>pwd</code>.</p>
+<pre><code>. qui do https://raw.githubusercontent.com/jhustata/book/main/nhanes-alpha.ado      
+
+. set scheme s2color
+
+. nhanes</code></pre>
+<p><img src="Graph1.svg" class="img-fluid"></p>
+<pre><code>. use nh3andmort, clear
+(NHANES 1988-1994, survey &amp; mortality)
+
+. di "obs: `c(N)' &amp; vars: `c(k)'"      
+obs: 19599 &amp; vars: 3643</code></pre>
+<p><strong>Conclusions:</strong> NHANES is a large databased with 19599 participants surveyed and 3643 questionnaire, exam, and lab items captured. It is soon going to be fully accessible to Stata users, in no small part because of this humble capstone project.</p>
+<p>As we establish our workflow, updates to our program will be published on a weekly basis and the URL will be sent to the student team as well as the teaching team in the first five minutes of each class session. A question not to ask: shall we ever need to annotate our .do files if we can offer much richer documentation in e-book built using .html?</p>
+<p><strong>Acknowledgments:</strong> We initially published our Stata output in a Jupiter-book hosted by Github. All the .html content of the book was produced in a Python environment; however, Stata .html output will gradually replace the Python-based output of the book as we truly become advanced Stata users!</p>
+<p>VS Code terminal is our IDE choice for committing and pushing our git content to our hub and have established a seamless process for updating our publication.</p>
+<p><strong>References:</strong></p>
+<ol type="1">
+<li><a href="https://jhustata.github.io/book/jjj.html">https://jhustata.github.io/book/jjj.html</a></li>
+<li><a href="https://jupyterbook.org/en/stable/start/your-first-book.html">https://jupyterbook.org/en/stable/start/your-first-book.html</a></li>
+<li><a href="https://www.stata.com/stata-news/news36-1/spotlight-markdown/">https://www.stata.com/stata-news/news36-1/spotlight-markdown/</a></li>
+<li><a href="https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.sas">https://wwwn.cdc.gov/nchs/data/nhanes3/1a/adult.sas</a></li>
+<li><a href="https://jhustata.github.io/class700/intro.html">https://jhustata.github.io/class700/intro.html</a></li>
+<li><a href="https://www.jhsph.edu/courses/course/37447/2022/340.700.71/advanced-stata-programming">https://www.jhsph.edu/courses/course/37447/2022/340.700.71/advanced-stata-programming</a></li>
+<li><a href="https://www.surgjournal.com/article/S0039-6060(18)30076-X/fulltext">Muzaale AD. Databases for surgical health services research: National Health and Nutrition Examination Survey. Surgery. 2019 May;165(5):873-875</a></li>
+<li><a href="https://www.ssc.wisc.edu/~hemken/Stataworkshops/dyndoc%20review/Review.html">https://www.ssc.wisc.edu/~hemken/Stataworkshops/dyndoc%20review/Review.html</a></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -308,11 +326,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./nhanes.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">NHANES</span></span>
+      <a href="./summary.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
